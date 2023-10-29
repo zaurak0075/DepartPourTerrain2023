@@ -323,7 +323,7 @@ Camera:
     height: 1
   near clip plane: 0.2
   far clip plane: 500
-  field of view: 40
+  field of view: 100
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -349,7 +349,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   m_LocalRotation: {x: 0, y: 0.5000004, z: 0, w: 0.8660252}
-  m_LocalPosition: {x: 197.99608, y: 116.278, z: 257.354}
+  m_LocalPosition: {x: 414.642, y: 125.028, z: 428.92224}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -547,7 +547,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 673609346}
   m_Lens:
-    FieldOfView: 40
+    FieldOfView: 100
     OrthographicSize: 5
     NearClipPlane: 0.2
     FarClipPlane: 500
@@ -580,7 +580,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 681109585}
   m_LocalRotation: {x: -0.012172257, y: 0.95801544, z: -0.041121334, w: -0.2834912}
-  m_LocalPosition: {x: 197.99608, y: 116.278, z: 257.354}
+  m_LocalPosition: {x: 414.642, y: 125.028, z: 428.92224}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -746,7 +746,7 @@ Terrain:
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
+  m_DetailObjectDistance: 300
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
@@ -864,15 +864,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d515c498d0198ed48b4f6f6f8599d406, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 200
+      value: 418
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d515c498d0198ed48b4f6f6f8599d406, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 115.25
+      value: 124
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d515c498d0198ed48b4f6f6f8599d406, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 258.75
+      value: 431.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d515c498d0198ed48b4f6f6f8599d406, type: 3}
       propertyPath: m_LocalRotation.w
